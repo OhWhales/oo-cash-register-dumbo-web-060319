@@ -22,6 +22,7 @@ class CashRegister
       newDiscount = total * x
       @total = @total - newDiscount
       return "After the discount, the total comes to $#{@total.to_i}."
+    else 
     
   end 
 end 
