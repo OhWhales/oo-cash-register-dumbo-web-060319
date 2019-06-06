@@ -15,4 +15,9 @@ class CashRegister
       @total = @total + wait 
     end 
   end
+  
+  def apply_discount 
+    x = @discount 
+    
+  end 
 end 
