@@ -15,6 +15,7 @@ class CashRegister
       @items.push(title)
     else 
       wait = price * quantity 
+      last_transaction = wait
       @total = @total + wait 
       count = 0 
       while (count < quantity)
