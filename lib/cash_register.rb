@@ -11,6 +11,7 @@ class CashRegister
   def add_item(title, price, quantity = 0 )
     if quantity == 0 
       @total = @total + price 
+      @items.push(title)
     else 
       wait = price * quantity 
       @total = @total + wait 
