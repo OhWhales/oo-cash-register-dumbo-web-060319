@@ -20,6 +20,7 @@ class CashRegister
     x = @discount /100.0 
     newDiscount = x * @total
     @total = @total - x 
+    puts "After the discount, the total comes to $#{@total}."
     
   end 
 end 
