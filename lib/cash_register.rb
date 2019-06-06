@@ -18,7 +18,7 @@ class CashRegister
   
   def apply_discount 
     x = @discount /100.0 
-    newDiscount = x * @total
+    newDiscount = total * x
     @total = @total - x 
     puts "After the discount, the total comes to $#{@total}."
     
