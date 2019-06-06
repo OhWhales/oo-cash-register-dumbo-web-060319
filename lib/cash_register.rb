@@ -14,6 +14,7 @@ class CashRegister
     else 
       wait = price * quantity 
       @total = @total + wait 
+      @items.push(title)
     end 
   end
   
